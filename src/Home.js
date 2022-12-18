@@ -13,14 +13,14 @@ const Home = () => {
         const newBlogs = blogs.filter(
             (blog) => blog.id !== id
         )
-        setBlogs(newBlogs);
+        setBlogs(newBlogs );
     }
 
     useEffect(
         () => {
             console.log('Rendered the Page');
             console.log(blogs)
-        }
+        }, []
     )
 
     return ( 
