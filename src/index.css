@@ -55,3 +55,66 @@
 .blog-preview a{
   text-decoration: none;
 }
+
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #3b0b19;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.blog-details div {
+  margin: 20px 0;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Form */
+.create {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #80233f;
+  margin-bottom: 30px;
+}
+
+.label_text:hover{
+  color: #f1356d;
+  font-weight: bold;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #d63f6c;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create button:hover{
+  background-color: #8b163a;
+  font-weight: bold;
+}

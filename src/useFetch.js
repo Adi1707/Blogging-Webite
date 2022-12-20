@@ -33,7 +33,7 @@ const useFetch = (url) => {
                         setIsPending(false);
                     }
                 })
-        }, 1000);
+        }, 10);
 
         return () => abortCont.abort();
 
