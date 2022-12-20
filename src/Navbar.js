@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 
 const Navbar = () => {
-    return ( 
+    return (  
         <nav className="navbar">
             <h1 className="title">Zenb Blog</h1>
             <div className="links">
